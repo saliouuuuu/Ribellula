@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ribellula Yoga · Chiara · Alba e online</title>
+<meta name="description" content="Yoga, movimento e somatica con Chiara ad Alba e online: lezioni, workshop e una videoteca per praticare quando vuoi.">
+<meta name="theme-color" content="#CF9A7D">
+<script>window.__ribOk=0;(function(d){try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches&&!location.hash){d.classList.add('env-on');setTimeout(function(){if(!window.__ribOk)d.classList.remove('env-on')},6000)}}catch(e){}})(document.documentElement)</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,300..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="preload" href="assets/img/hero.webp" as="image">
+<link rel="stylesheet" href="assets/app.out.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs><radialGradient id="petalGrad" cx="50%" cy="88%" r="85%"><stop offset="0" stop-color="#B9805F"/><stop offset=".42" stop-color="#E2B497"/><stop offset="1" stop-color="#FBEDE2"/></radialGradient></defs>
+  <symbol id="petalShape" viewBox="0 0 20 24"><path d="M10 23.5C3.2 18.6 0 11.6 1.8 5.4 3.2 1.3 6.6.4 8.8 2.6L10 3.9l1.2-1.3C13.4.4 16.8 1.3 18.2 5.4 20 11.6 16.8 18.6 10 23.5Z" fill="url(#petalGrad)"/></symbol>
+  <symbol id="starShape" viewBox="0 0 20 20"><path d="M10 0C10.6 6 14 9.4 20 10 14 10.6 10.6 14 10 20 9.4 14 6 10.6 0 10 6 9.4 9.4 6 10 0Z"/></symbol>
+</svg>
+<div class="cur" id="cur" aria-hidden="true"><div class="cur__ring"><span id="curLabel">Apri</span></div><div class="cur__dot"></div></div>
+
+<!-- ================= APERTURA: la busta (si apre e sotto c'è già il sito) ================= -->
+<div class="env" id="env">
+  <div class="env-pocket" id="pocket" aria-hidden="true">
+    <div class="env-face env-face--l"></div>
+    <div class="env-face env-face--r"></div>
+    <div class="env-bottom"><div class="env-face--b"></div></div>
+    <div class="pocket-ring"><svg class="ring-c" viewBox="0 0 100 100"><circle class="rc" cx="50" cy="50" r="49.5" pathLength="100"/></svg><svg class="spark spark--b" viewBox="0 0 20 20"><use href="#starShape"/></svg></div>
+    <div class="env-print" id="envPrint">
+      <svg class="script" id="heroScript" viewBox="0 0 {{RW}} {{RH}}"><path d="{{RD}}"/></svg>
+      <p class="env-sub" id="envSub">Movement • Somatics • Yoga</p>
+      <p class="env-small" id="envSmall">Alba e online</p>
+    </div>
+  </div>
+  <div class="flap-shade" id="flapShade" aria-hidden="true"><i></i></div>
+  <div class="env-flapwrap" id="flapWrap" aria-hidden="true"><div class="env-flap" id="flap"><svg class="ring-c" viewBox="0 0 100 100"><circle class="rc" cx="50" cy="50" r="49.5" pathLength="100"/></svg></div></div>
+  <button class="seal" id="seal" type="button" aria-label="Apri la busta ed entra nel sito">
+    <img class="sprig" id="sprig" src="assets/img/sprig-sh.webp" alt="" width="458" height="334">
+    <span class="seal__in" id="sealIn">
+      <img class="seal__half seal__l" src="assets/img/seal.webp" alt="">
+      <img class="seal__half seal__r" src="assets/img/seal.webp" alt="">
+      <svg class="seal__crack" viewBox="0 0 100 100" aria-hidden="true"><polyline id="crack" points="52.5,8 48.3,19.5 54.2,32 46.7,44.5 53.3,56 47.5,68 52.5,80 49.2,92"/></svg>
+      <i class="drop d1"></i><i class="drop d2"></i>
+    </span>
+    <i class="crumb" style="--s:6%"></i><i class="crumb" style="--s:4.5%"></i><i class="crumb" style="--s:7.5%"></i><i class="crumb" style="--s:3.5%"></i><i class="crumb" style="--s:5%"></i><i class="crumb" style="--s:6.5%"></i><i class="crumb" style="--s:4%"></i>
+  </button>
+  <p class="hint" id="hint" aria-hidden="true"><span class="hint--d">Scorri o clicca per aprire</span><span class="hint--m">Tocca per aprire</span><i></i></p>
+</div>
+
+<header class="hd" id="hd">
+  <a class="hd__logo" href="#top" aria-label="Ribellula Yoga, torna all'inizio"><img src="assets/img/seal-sm.webp" alt="" width="42" height="42"><span>Ribellula</span></a>
+  <nav class="hd__nav" aria-label="Principale">
+    <a href="#chi-sono">Chi sono</a><a href="#workshop">Workshop</a><a href="#lezioni">Lezioni</a><a href="#videoteca">Videoteca</a><a href="#contatti">Contatti</a>
+  </nav>
+  <div class="hd__r">
+    <button class="hd__area" type="button" data-area="me">Area riservata</button>
+    <button class="hd__menu" id="menuBtn" type="button" aria-expanded="false" aria-controls="menu"><span>Menu</span><i></i></button>
+  </div>
+</header>
+
+<div class="menu" id="menu" aria-hidden="true" data-lenis-prevent>
+  <nav aria-label="Menu">
+    <a href="#chi-sono"><small>01</small><span>Chi sono</span></a>
+    <a href="#workshop"><small>02</small><span>Workshop</span></a>
+    <a href="#lezioni"><small>03</small><span>Lezioni ad Alba</span></a>
+    <a href="#videoteca"><small>04</small><span><em>Videoteca</em></span></a>
+    <a href="#contatti"><small>05</small><span>Contatti</span></a>
+  </nav>
+  <div class="menu__foot"><button class="btn btn--salmon" type="button" data-area="me">Area riservata <span class="ar">→</span></button><img src="assets/img/seal-salmon-sm.webp" alt=""></div>
+</div>
+
+<main>
+
+<!-- ================= HERO: manifesto con il vetro smerigliato ================= -->
+<section class="hero" id="top">
+  <img class="hero__img" src="assets/img/hero.webp" alt="Chiara in spaccata con inarcamento sulla riva del mare" width="2000" height="1296" fetchpriority="high">
+  <div class="hero__glass" id="heroGlass" aria-hidden="true"><img class="hero__blur" src="assets/img/hero-blur.webp" alt=""><i class="hero__tint"></i></div>
+  <div class="hero__in">
+    <div class="hero__strip">
+      <p class="hero__k"><span>Movement</span><i>•</i><span>Somatics</span><i>•</i><span>Yoga</span></p>
+      <h1 class="hero__t"><span class="sr">Ribellula Yoga: yoga, movimento e somatica con Chiara, ad Alba e online</span><span class="syl" aria-hidden="true"><span>Ri</span></span><span class="syl" aria-hidden="true"><span>bel</span></span><span class="syl" aria-hidden="true"><span>lu</span></span><span class="syl" aria-hidden="true"><span>la</span></span></h1>
+      <a class="hero__date" href="#workshop"><b>22.11</b><span>Prossimo workshop<br>Inarcacao →</span></a>
+    </div>
+    <div class="hero__foot">
+      <p class="hero__d">Yoga, movimento e somatica con Chiara. <em>Ad Alba e online.</em></p>
+      <div class="hero__cta"><a class="btn btn--ink" href="#videoteca" data-cur="Entra">Videoteca <span class="ar">→</span></a><a class="btn btn--line" href="#lezioni" data-cur="Orari">Lezioni ad Alba</a></div>
+    </div>
+    <a class="hero__tag" href="#workshop" data-cur="Scopri"><i></i><span>Prossimo workshop</span><b>22.11 · Inarcacao</b><span class="ar">→</span></a>
+  </div>
+</section>
+
+<!-- ================= 01 CHI SONO ================= -->
+<section class="sec about sc-paper" id="chi-sono">
+  <div class="wrap about__grid">
+    <div class="about__txt">
+      <p class="eyebrow">Chi sono</p>
+      <h2 class="about__h">Ciao, sono <svg id="sigChiara" viewBox="0 0 {{CW}} {{CH}}" role="img" aria-label="Chiara"><path d="{{CD}}"/></svg></h2>
+      <p class="about__p rv">Insegno yoga e movimento ad Alba, dal vivo e online. Unisco la pratica all'anatomia, alle neuroscienze e all'ayurveda, per capire <b>come sentiamo, come rispondiamo</b> e dove lasciare andare la tensione che non serve.</p>
+      <p class="about__w rv">Percezione <svg viewBox="0 0 20 20" aria-hidden="true"><use href="#starShape"/></svg> Anatomia <svg viewBox="0 0 20 20" aria-hidden="true"><use href="#starShape"/></svg> Varianti</p>
+    </div>
+    <figure class="about__fig" id="aboutFig">
+      <div class="sun" id="sun"></div>
+      <svg class="sun__ring" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="49.6"/></svg>
+      <svg class="sun__spark" viewBox="0 0 20 20" aria-hidden="true"><use href="#starShape"/></svg>
+      <img class="about__cut" id="aboutCut" src="assets/img/about-cut.webp" alt="Chiara di spalle in torsione, con le mani dietro la schiena" loading="lazy" width="760" height="697">
+      <span class="about__idx" aria-hidden="true"><b>01</b><i></i></span>
+      <span class="about__v" aria-hidden="true">Movement • Somatics • Yoga</span>
+    </figure>
+  </div>
+  <div class="wrap appr">
+    <figure class="appr__fig" id="maniFig">
+      <img src="assets/img/lunge.webp" alt="Chiara in affondo con inarcamento sulla spiaggia, in bianco e nero" loading="lazy" width="1000" height="1115" id="maniImg">
+      <svg class="phi" id="phi" viewBox="0 0 618 1000" aria-hidden="true"></svg>
+    </figure>
+    <div class="appr__txt">
+      <p class="eyebrow">Il mio approccio</p>
+      <h3 class="appr__h split">Ci sono limiti che appartengono al corpo. <em>E limiti che iniziano molto prima.</em></h3>
+      <p class="appr__p" id="maniP">Davanti a qualcosa di difficile, il cervello non aspetta di scoprire cosa succederà. <span class="mk">Predice.<svg viewBox="0 0 100 12" preserveAspectRatio="none" aria-hidden="true"><path d="M2 8 C 25 3, 55 11, 98 5"/></svg></span> <span class="mk">Anticipa.<svg viewBox="0 0 100 12" preserveAspectRatio="none" aria-hidden="true"><path d="M2 6 C 30 10, 60 2, 98 7"/></svg></span> <span class="mk">Costruisce possibilità.<svg viewBox="0 0 100 12" preserveAspectRatio="none" aria-hidden="true"><path d="M2 7 C 35 2, 65 11, 98 4"/></svg></span></p>
+      <p class="appr__q">Ma quel “no” è davvero un limite?</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 02 WORKSHOP ================= -->
+<section class="ws sc-cacao" id="workshop">
+  <div class="band" id="band">
+    <img class="band__img" id="bandImg" src="assets/img/kapo.webp" alt="Chiara in kapotasana tra fave di cacao e petali di rosa" loading="lazy" width="1059" height="679">
+    <div class="band__glass" id="bandGlass">
+      <div class="band__in" id="bandIn">
+        <img class="band__blur" id="bandBlur" src="assets/img/kapo-blur.webp" alt="" aria-hidden="true">
+        <div class="band__tint"></div>
+        <div class="band__txt">
+          <p class="band__k">Yoga workshop</p>
+          <div class="band__big" aria-hidden="true"><span>In</span><span>ar</span><span>ca</span><span>cao</span></div>
+          <div class="band__date"><b>22.11</b><span>Lyra Benessere &amp; Saune<br>Alba</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wrap ws__grid">
+    <div class="invite" id="invite" data-cur="Ti aspetto">
+      <div class="inv__env">
+        <div class="inv__shadow" aria-hidden="true"></div>
+        <div class="inv__flap" aria-hidden="true"></div>
+        <div class="inv__back" aria-hidden="true"></div>
+        <div class="inv__cardwrap">
+          <div class="inv__card" id="invCard">
+            <p class="inv__k">Ti invito</p>
+            <p class="inv__t">Inarcacao</p>
+            <svg class="inv__s" viewBox="0 0 {{EW}} {{EH}}" role="img" aria-label="e te"><path d="{{ED}}"/></svg>
+            <p class="inv__by">Yoga workshop</p>
+            <p class="inv__d">Domenica 22 novembre</p>
+          </div>
+        </div>
+        <div class="inv__front" aria-hidden="true"></div>
+        <img class="inv__seal" src="assets/img/seal.webp" alt="" aria-hidden="true">
+      </div>
+    </div>
+    <div class="ws__info">
+      <p class="eyebrow"><i class="live"></i> Prossimo workshop</p>
+      <h2 class="ws__t">Inarcamenti, gusto <em>e percezione</em></h2>
+      <dl class="ws__meta">
+        <dt>Quando</dt><dd>Domenica 22 novembre, 9:00–16:00</dd>
+        <dt>Dove</dt><dd>Lyra Benessere &amp; Saune, Alba</dd>
+        <dt>Quota</dt><dd id="wsPrice"><s>90 € early bird</s> 100 €</dd>
+      </dl>
+      <div class="cd" id="cd" aria-label="Conto alla rovescia">
+        <div class="cd__u"><div class="cd__n" data-u="d"></div><small>giorni</small></div>
+        <div class="cd__u"><div class="cd__n" data-u="h"></div><small>ore</small></div>
+        <div class="cd__u"><div class="cd__n" data-u="m"></div><small>minuti</small></div>
+        <div class="cd__u"><div class="cd__n" data-u="s"></div><small>secondi</small></div>
+      </div>
+      <div class="acc" id="wsAcc">
+        <div class="acc__i"><button class="acc__b" type="button" aria-expanded="false">Perché cacao e inarcamenti?<span class="pm"></span></button><div class="acc__p"><div><p>Il filo che li unisce è la percezione: come sentiamo, come rispondiamo e quali emozioni accompagnano l'esperienza. Si parte dal gusto e dai sensi, si porta questa attenzione negli inarcamenti e si torna ai sensi nel pomeriggio in spa.</p></div></div></div>
+        <div class="acc__i"><button class="acc__b" type="button" aria-expanded="false">Gusto, sensi ed emozioni<span class="pm"></span></button><div class="acc__p"><div><p>I rasa, i gusti dell'Ayurveda, e i navarasa, i nove “sapori” dell'esperienza emotiva. Poi un piccolo rituale ispirato alla cerimonia del cacao, con cacao cerimoniale, polvere di rosa e spezie.</p></div></div></div>
+        <div class="acc__i"><button class="acc__b" type="button" aria-expanded="false">Inarcamenti: come sostenerli?<span class="pm"></span></button><div class="acc__p"><div><p>Preparazioni, attivazioni e appoggi per esplorare gli inarcamenti senza forzare la zona lombare, con varianti per corpi diversi.</p></div></div></div>
+      </div>
+      <div class="ws__cta"><a class="btn btn--salmon" id="wsBook" href="https://wa.me/393459916715?text=Ciao%20Chiara%2C%20vorrei%20prenotare%20un%20posto%20a%20Inarcacao%20del%2022%20novembre" target="_blank" rel="noopener" data-cur="Scrivimi">Prenota il tuo posto <span class="ar">→</span></a></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 03 LEZIONI ================= -->
+<section class="sec cls sc-mist" id="lezioni">
+  <div class="deco deco--cls" aria-hidden="true"><svg class="deco-ring r1" viewBox="0 0 100 100"><circle cx="50" cy="50" r="49.5" pathLength="100"/></svg><svg class="deco-ring r2" viewBox="0 0 100 100"><circle cx="50" cy="50" r="49.5" pathLength="100"/></svg><svg class="deco-star s1" viewBox="0 0 20 20"><use href="#starShape"/></svg><svg class="deco-star s2" viewBox="0 0 20 20"><use href="#starShape"/></svg><svg class="deco-star s3" viewBox="0 0 20 20"><use href="#starShape"/></svg><svg class="deco-petal p1" viewBox="0 0 20 24"><use href="#petalShape"/></svg><svg class="deco-petal p2" viewBox="0 0 20 24"><use href="#petalShape"/></svg></div>
+  <div class="wrap sec-h">
+    <div><p class="eyebrow">In presenza</p><h2 class="split">Lezioni <em>ad Alba</em></h2></div>
+    <p class="next" id="nextClass"><i></i><span>Calcolo la prossima lezione…</span></p>
+  </div>
+  <div class="rowx rowx--grid" id="clsRow" aria-label="Lezioni settimanali"></div>
+  <div class="wrap rctl rctl--mob" id="clsCtl"><button class="rp" type="button" aria-label="Lezione precedente">←</button><button class="rn" type="button" aria-label="Lezione successiva">→</button><span class="rbar"><i></i></span><span class="rnum">01 / 03</span></div>
+  <p class="wrap cls__places">Le lezioni sono da <a href="https://www.google.com/maps/search/?api=1&amp;query=Lyra+Benessere+%26+Saune+Alba" target="_blank" rel="noopener" data-cur="Mappa">Lyra Benessere &amp; Saune ↗</a>, le masterclass da <a href="https://www.google.com/maps/search/?api=1&amp;query=Corso+Torino+18+Alba" target="_blank" rel="noopener" data-cur="Mappa">Ævum, Corso Torino 18 ↗</a></p>
+</section>
+
+<!-- ================= 04 VIDEOTECA ================= -->
+<section class="sec vt sc-taupe" id="videoteca">
+  <div class="deco deco--vt" aria-hidden="true"><svg class="deco-ring r1" viewBox="0 0 100 100"><circle cx="50" cy="50" r="49.5" pathLength="100"/></svg><svg class="deco-ring r2" viewBox="0 0 100 100"><circle cx="50" cy="50" r="49.5" pathLength="100"/></svg><svg class="deco-star s1" viewBox="0 0 20 20"><use href="#starShape"/></svg><svg class="deco-star s2" viewBox="0 0 20 20"><use href="#starShape"/></svg><svg class="deco-star s3" viewBox="0 0 20 20"><use href="#starShape"/></svg><svg class="deco-star s4" viewBox="0 0 20 20"><use href="#starShape"/></svg></div>
+  <div class="wrap vt__h">
+    <div class="vt__intro"><p class="eyebrow">Videoteca online</p><h2 class="vt__t">Pratica <span class="nw"><svg class="vt__s" viewBox="0 0 {{MW}} {{MH}}" role="img" aria-label="con me"><path d="{{MD}}"/></svg>,</span><br>quando vuoi.</h2>
+      <p class="vt__lead rv">Le lezioni registrate, sempre con te. Paghi online e guardi subito, anche dal telefono.</p>
+      <div class="vt__stats"><div><b data-n="12">12</b><span>lezioni</span></div><div><b data-n="6">6</b><span>temi</span></div><div><b data-n="2">2</b><span>formule</span></div></div>
+    </div>
+    <div class="phone" id="phone" aria-hidden="true"><img class="phone__sprig" src="assets/img/sprig-sh.webp" alt="" loading="lazy"><div class="phone__float"><div class="phone__body"><div class="phone__screen"><div class="ph-status"><b>9:41</b><i></i></div><div class="ph-top"><img src="assets/img/seal-sm.webp" alt=""><span>La mia pratica</span></div><p class="ph-hi">Riprendi da<br><em>dove eri</em></p><div class="ph-card" style="--orb:#A9654C"><i class="yc__orb"></i><span class="ph-card__k">45 min · Inarcamenti</span><b>Inarcamenti<br>senza pinza</b><span class="ph-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4l14 8-14 8z"/></svg></span></div><div class="ph-prog"><i></i></div><p class="ph-left">Ti mancano 16 minuti</p><ul class="ph-list"><li><i style="--orb:#CF9A7D"></i><span>Ashtanga guidato<small>75 min · Pratica</small></span></li><li><i style="--orb:#DDB096"></i><span>Respiro e ritmo<small>20 min · Respiro</small></span></li><li><i style="--orb:#935B3F"></i><span>Il cervello dice no<small>60 min · Teoria</small></span></li></ul><div class="ph-tab"><span class="on">Home</span><span>Videoteca</span><span>Fatture</span></div></div></div></div><img class="phone__seal" src="assets/img/seal-salmon-sm.webp" alt=""></div>
+  </div>
+  <div class="vt__marq" aria-hidden="true"><div class="vt__mq"><span>Pratica<svg viewBox="0 0 20 20" aria-hidden="true"><use href="#starShape"/></svg><em>inarcamenti</em><svg viewBox="0 0 20 20" aria-hidden="true"><use href="#starShape"/></svg>Inversioni<svg viewBox="0 0 20 20" aria-hidden="true"><use href="#starShape"/></svg><em>somatics</em><svg viewBox="0 0 20 20" aria-hidden="true"><use href="#starShape"/></svg>Respiro<svg viewBox="0 0 20 20" aria-hidden="true"><use href="#starShape"/></svg><em>teoria</em><svg viewBox="0 0 20 20" aria-hidden="true"><use href="#starShape"/></svg></span><span>Pratica<svg viewBox="0 0 20 20" aria-hidden="true"><use href="#starShape"/></svg><em>inarcamenti</em><svg viewBox="0 0 20 20" aria-hidden="true"><use href="#starShape"/></svg>Inversioni<svg viewBox="0 0 20 20" aria-hidden="true"><use href="#starShape"/></svg><em>somatics</em><svg viewBox="0 0 20 20" aria-hidden="true"><use href="#starShape"/></svg>Respiro<svg viewBox="0 0 20 20" aria-hidden="true"><use href="#starShape"/></svg><em>teoria</em><svg viewBox="0 0 20 20" aria-hidden="true"><use href="#starShape"/></svg></span></div></div>
+  <div class="wrap"><article class="feat" id="feat" data-cur="Guarda" tabindex="0" role="button" aria-label="Anteprima: Quando il cervello dice no"><div class="feat__media"><img src="assets/img/feat.webp" alt="Chiara in equilibrio sulle braccia, nella posizione del corvo" width="980" height="708" loading="lazy"></div><div class="feat__in"><p class="feat__k"><span class="pill">In evidenza</span>Masterclass registrata</p><h3 class="feat__t">Quando il cervello <em>dice no</em></h3><dl class="feat__cred"><div><dt>Tema</dt><dd>Patañjali e le neuroscienze</dd></div><div><dt>In pratica</dt><dd>inversioni e arm balance</dd></div><div><dt>Durata</dt><dd>60 minuti, per tutti</dd></div><div><dt>Inclusa in</dt><dd>abbonamento e pacchetto</dd></div></dl><div class="feat__ctl"><span class="feat__play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4l14 8-14 8z"/></svg></span><span class="feat__bar"><span>Guarda l'anteprima · 0:30</span><b><i></i></b></span></div></div><img class="feat__seal" src="assets/img/seal.webp" alt=""></article></div>
+  <div class="wrap vt__bar">
+    <div class="tabs" id="tabs" role="tablist" aria-label="Filtra le lezioni"><span class="tabs__ind" id="tabsInd"></span></div>
+    <label class="search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg><input id="vtSearch" type="search" placeholder="Cerca una lezione" aria-label="Cerca una lezione"></label>
+  </div>
+  <p class="wrap vt__empty" id="vtEmpty" hidden>Nessuna lezione con questo nome. Prova un'altra parola.</p>
+  <div class="rowx" id="vRow" aria-label="Lezioni della videoteca"></div>
+  <div class="wrap rctl" id="vCtl"><button class="rp" type="button" aria-label="Lezioni precedenti">←</button><button class="rn" type="button" aria-label="Lezioni successive">→</button><span class="rbar"><i></i></span><span class="rnum">01 / 12</span></div>
+  <p class="wrap demo-note">Catalogo di esempio: titoli e durate si sostituiscono con le tue lezioni</p>
+
+  <div class="wrap plans" id="piani">
+    <div class="plans__h"><h3 class="split">Due formule, <em>attive insieme</em></h3><p>Il pacchetto raccoglie le lezioni registrate su Zoom e lo paghi una volta sola. L'abbonamento apre tutta la videoteca, con le lezioni nuove man mano che escono.</p></div>
+    <article class="plan" style="--orb:#CF9A7D">
+      <i class="yc__orb"></i>
+      <img class="plan__seal" src="assets/img/seal.webp" alt="">
+      <div class="plan__top"><span>Più completo</span></div>
+      <h4>Abbonamento<br>mensile</h4>
+      <div class="plan__p"><b><i>&nbsp;</i> €</b><small>al mese · prezzo da definire</small></div>
+      <ul>
+        <li><svg viewBox="0 0 20 20" aria-hidden="true"><use href="#starShape"/></svg>Tutta la videoteca, sempre disponibile</li>
+        <li><svg viewBox="0 0 20 20" aria-hidden="true"><use href="#starShape"/></svg>Le lezioni nuove man mano che escono</li>
+        <li><svg viewBox="0 0 20 20" aria-hidden="true"><use href="#starShape"/></svg>Disdici quando vuoi</li>
+      </ul>
+      <button class="btn btn--ink" type="button" data-plan="Abbonamento mensile" data-cur="Scegli">Scegli l'abbonamento <span class="ar">→</span></button>
+    </article>
+    <article class="plan" style="--orb:#935B3F">
+      <i class="yc__orb"></i>
+      <div class="plan__top"><span>Una volta sola</span></div>
+      <h4>Pacchetto<br>lezioni</h4>
+      <div class="plan__p"><b><i>&nbsp;</i> €</b><small>una tantum · prezzo da definire</small></div>
+      <ul>
+        <li><svg viewBox="0 0 20 20" aria-hidden="true"><use href="#starShape"/></svg>Le lezioni registrate su Zoom</li>
+        <li><svg viewBox="0 0 20 20" aria-hidden="true"><use href="#starShape"/></svg>Paghi una volta sola</li>
+        <li><svg viewBox="0 0 20 20" aria-hidden="true"><use href="#starShape"/></svg>Nessun rinnovo automatico</li>
+      </ul>
+      <button class="btn btn--salmon" type="button" data-plan="Pacchetto lezioni" data-cur="Scegli">Scegli il pacchetto <span class="ar">→</span></button>
+    </article>
+  </div>
+
+  <div class="wrap"><ol class="how" id="how">
+    <li><span class="how__n">1</span><div><h4>Scegli</h4><p>Abbonamento o pacchetto.</p></div></li>
+    <li><span class="how__n">2</span><div><h4>Paghi online</h4><p>Carta o PayPal, in sicurezza.</p></div></li>
+    <li><span class="how__n">3</span><div><h4>Guardi subito</h4><p>Anche dal telefono.</p></div></li>
+    <li><span class="how__n">4</span><div><h4>Ricevi la fattura</h4><p>Arriva da sola per email.</p></div></li>
+  </ol></div>
+
+  <div class="wrap"><div class="vt__area"><img class="vt__seal" src="assets/img/seal-salmon-sm.webp" alt="" aria-hidden="true"><img class="vt__sprig" src="assets/img/sprig-sh.webp" alt="" aria-hidden="true" loading="lazy">
+    <div><b>Pratichi già con me?</b><span>Entra nella tua area riservata e riprendi da dove eri.</span></div>
+    <div class="row">
+      <button class="btn btn--line" type="button" data-area="me" data-cur="Entra">Area riservata <span class="ar">→</span></button>
+      <button class="btn btn--salmon" type="button" data-area="chiara" data-cur="Guarda">Come la gestisci tu</button>
+      <small>Solo nella demo: carichi i video da sola</small>
+    </div>
+  </div></div>
+</section>
+
+<!-- ================= APPUNTI ================= -->
+<section class="sec notes sc-paper" id="appunti">
+  <div class="branch-wrap" id="branchWrap" aria-hidden="true"><img class="branch" src="assets/img/branch-sh.webp" alt="" width="848" height="848" loading="lazy"></div>
+  <div class="petals" id="petals" aria-hidden="true"></div>
+  <div class="wrap sec-h">
+    <div><p class="eyebrow">Dai miei appunti</p><h2 class="split">Cose che sto imparando <em>su un'isola</em></h2><p class="notes__sub rv">…e che forse possono servire anche a te.</p></div>
+  </div>
+  <div class="rowx" id="nRow" aria-label="Appunti">
+    <article class="yc yc--col note" style="--orb:#CF9A7D;--sr:12deg">
+      <i class="yc__orb"></i><span class="note__stamp"><img class="note__seal" src="assets/img/seal-sm.webp" alt=""></span>
+      <div class="yc__top"><span>01 / 04 · Kaua'i</span></div>
+      <div><p class="note__q">Hai attraversato un oceano per continuare ad avere fretta.</p><p class="note__s">Ogni riferimento alla sottoscritta è puramente intenzionale.</p></div>
+      <div class="yc__bot"><span class="yc__brand">Ribellula</span></div>
+    </article>
+    <article class="yc yc--col note" style="--orb:#DDB096;--sr:-10deg">
+      <i class="yc__orb"></i><span class="note__stamp"><img class="note__seal" src="assets/img/seal-sm.webp" alt=""></span>
+      <div class="yc__top"><span>02 / 04 · Ritmo</span></div>
+      <div><p class="note__q">Non devi imparare a rallentare. Devi imparare a cambiare ritmo.</p><p class="note__s">Lascia uno spazio vuoto, senza decidere subito come riempirlo.</p></div>
+      <div class="yc__bot"><span class="yc__brand">Ribellula</span></div>
+    </article>
+    <article class="yc yc--col note" style="--orb:#B48C71;--sr:8deg">
+      <i class="yc__orb"></i><span class="note__stamp"><img class="note__seal" src="assets/img/seal-sm.webp" alt=""></span>
+      <div class="yc__top"><span>03 / 04 · Lasciare</span></div>
+      <div><p class="note__q">Perdi qualcosa. Di proposito.</p><p class="note__s">Non tutto ciò che puoi fare deve essere fatto.</p></div>
+      <div class="yc__bot"><span class="yc__brand">Ribellula</span></div>
+    </article>
+    <article class="yc yc--col note" style="--orb:#A9654C;--sr:-14deg">
+      <i class="yc__orb"></i><span class="note__stamp"><img class="note__seal" src="assets/img/seal-sm.webp" alt=""></span>
+      <div class="yc__top"><span>04 / 04 · Ritorno</span></div>
+      <div><p class="note__q">Se torni identico, sei sicuro di essere partito davvero?</p><p class="note__s">Puoi andare lontanissimo senza spostarti davvero.</p></div>
+      <div class="yc__bot"><span class="yc__brand">Ribellula</span></div>
+    </article>
+  </div>
+  <div class="wrap rctl" id="nCtl"><button class="rp" type="button" aria-label="Appunto precedente">←</button><button class="rn" type="button" aria-label="Appunto successivo">→</button><span class="rbar"><i></i></span><span class="rnum">01 / 04</span></div>
+</section>
+
+<!-- ================= DOMANDE ================= -->
+<section class="sec faq sc-mist" id="faq">
+  <div class="deco deco--faq" aria-hidden="true"><svg class="deco-ring r1" viewBox="0 0 100 100"><circle cx="50" cy="50" r="49.5" pathLength="100"/></svg><svg class="deco-star s1" viewBox="0 0 20 20"><use href="#starShape"/></svg><svg class="deco-star s2" viewBox="0 0 20 20"><use href="#starShape"/></svg><svg class="deco-star s3" viewBox="0 0 20 20"><use href="#starShape"/></svg><svg class="deco-petal p1" viewBox="0 0 20 24"><use href="#petalShape"/></svg><svg class="deco-petal p2" viewBox="0 0 20 24"><use href="#petalShape"/></svg><svg class="deco-petal p3" viewBox="0 0 20 24"><use href="#petalShape"/></svg><img class="deco-sprig" src="assets/img/sprig-sh.webp" alt="" width="458" height="334" loading="lazy"></div>
+  <div class="wrap faq__grid">
+    <div class="faq__side"><h2 class="split">Domande <em>frequenti</em></h2><div class="orchid" id="orchid" aria-hidden="true"><img src="assets/img/orchid-sh.webp" alt="" width="804" height="804" loading="lazy"></div></div>
+    <div id="faqList">
+      <div class="qa"><button class="qa__b" type="button" aria-expanded="false">Come accedo alle lezioni della videoteca?<span class="pm"></span></button><div class="qa__p"><div><p>Scegli la formula, paghi online con carta o PayPal e accedi subito alla tua area riservata, dal telefono o dal computer.</p></div></div></div>
+      <div class="qa"><button class="qa__b" type="button" aria-expanded="false">Abbonamento o pacchetto: che differenza c'è?<span class="pm"></span></button><div class="qa__p"><div><p>Con l'abbonamento mensile vedi tutta la videoteca, comprese le lezioni nuove. Il pacchetto raccoglie le registrazioni delle lezioni su Zoom e lo paghi una volta sola, senza rinnovi.</p></div></div></div>
+      <div class="qa"><button class="qa__b" type="button" aria-expanded="false">Ricevo la fattura?<span class="pm"></span></button><div class="qa__p"><div><p>Sì, arriva in automatico via email a ogni acquisto.</p></div></div></div>
+      <div class="qa"><button class="qa__b" type="button" aria-expanded="false">Dove si svolgono le lezioni dal vivo?<span class="pm"></span></button><div class="qa__p"><div><p>Ad Alba, da Lyra Benessere &amp; Saune. Workshop e masterclass anche da Ævum, in Corso Torino 18.</p></div></div></div>
+      <div class="qa-more" id="faqMore"><div>
+        <div class="qa"><button class="qa__b" type="button" aria-expanded="false">Posso disdire l'abbonamento?<span class="pm"></span></button><div class="qa__p"><div><p>Sì, quando vuoi, dalla tua area riservata.</p></div></div></div>
+        <div class="qa"><button class="qa__b" type="button" aria-expanded="false">Come prenoto un workshop?<span class="pm"></span></button><div class="qa__p"><div><p>Scrivimi su WhatsApp: ti rispondo con i dettagli e con il modo per confermare il posto.</p></div></div></div>
+        <div class="qa"><button class="qa__b" type="button" aria-expanded="false">Posso guardare le lezioni più volte?<span class="pm"></span></button><div class="qa__p"><div><p>Sì, tutte le volte che vuoi, dal telefono o dal computer.</p></div></div></div>
+      </div></div>
+      <button class="more" id="faqBtn" type="button" aria-expanded="false" aria-controls="faqMore"><span>Altre domande</span><i>+</i></button>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 05 CONTATTI ================= -->
+<section class="sec ct sc-salmon" id="contatti">
+  <div class="wrap ct__grid">
+    <div>
+      <p class="eyebrow">Contatti</p>
+      <h2 class="split">Scrivimi, <em>ti rispondo io.</em></h2>
+      <ul class="clist">
+        <li><a href="https://wa.me/393459916715" target="_blank" rel="noopener" data-cur="Scrivi"><span><small>WhatsApp</small><b>345 991 6715</b></span><i>↗</i></a></li>
+        <li><a href="https://www.instagram.com/ribellula_yoga/" target="_blank" rel="noopener" data-cur="Segui"><span><small>Instagram</small><b>@ribellula_yoga</b></span><i>↗</i></a></li>
+        <li><div><span><small>Dove</small><b>Alba (CN) e online</b></span></div></li>
+      </ul>
+    </div>
+    <div class="letter-wrap">
+      <img class="corsage" id="corsage" src="assets/img/lilies-sh.webp" alt="" width="632" height="646" loading="lazy" aria-hidden="true">
+      <form class="letter" id="letter" novalidate>
+        <svg class="letter__h" viewBox="0 0 {{LW}} {{LH}}" role="img" aria-label="Cara Chiara,"><path d="{{LD}}"/></svg>
+        <label for="lMsg">Il tuo messaggio</label>
+        <textarea id="lMsg" rows="3" placeholder="vorrei sapere…"></textarea>
+        <span class="lb" id="lIntL">Mi interessa</span>
+        <div class="chips" role="group" aria-labelledby="lIntL">
+          <label class="chip"><input type="checkbox" id="chipWs" value="Inarcacao"><span>Inarcacao</span></label>
+          <label class="chip"><input type="checkbox" id="chipAlba" value="Lezioni ad Alba"><span>Lezioni ad Alba</span></label>
+          <label class="chip"><input type="checkbox" id="chipVt" value="Videoteca"><span>Videoteca</span></label>
+        </div>
+        <label for="lName">Firmato</label>
+        <input id="lName" type="text" placeholder="il tuo nome" autocomplete="name">
+        <div class="letter__f"><small>Si apre WhatsApp con la lettera già scritta.</small><a class="btn btn--ink" id="letterSend" href="https://wa.me/393459916715" target="_blank" rel="noopener" data-cur="Invia">Chiudi e invia <span class="ar">→</span></a></div>
+        <img class="letter__seal" id="letterSeal" src="assets/img/seal.webp" alt="">
+      </form>
+      <p class="sent" id="sent">Lettera pronta su WhatsApp</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="ft sc-cacao">
+  <div class="wrap">
+    <svg class="ft__script" id="ftScript" viewBox="0 0 {{RW}} {{RH}}" role="img" aria-label="Ribellula"><path d="{{RD}}"/></svg>
+    <div class="ft__row">
+      <span>© 2026 Ribellula Yoga · Chiara · Alba (CN)</span>
+      <nav aria-label="Piè di pagina"><a href="#workshop">Workshop</a><a href="#lezioni">Lezioni</a><a href="#videoteca">Videoteca</a><a href="https://www.instagram.com/ribellula_yoga/" target="_blank" rel="noopener">Instagram</a><a href="#">Privacy</a></nav>
+      <span>Demo di Marea Creative</span>
+    </div>
+  </div>
+</footer>
+
+<a class="waf" id="waf" href="https://wa.me/393459916715?text=Ciao%20Chiara%2C%20vorrei%20qualche%20informazione" target="_blank" rel="noopener" data-cur="Scrivi"><span>Scrivimi</span><i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.2Z"/></svg></i></a>
+
+<!-- anteprima video -->
+<dialog class="pl" id="player" aria-label="Anteprima della lezione" data-lenis-prevent>
+  <button class="x" type="button" data-close aria-label="Chiudi"><svg viewBox="0 0 16 16"><path d="M2 2l12 12M14 2L2 14"/></svg></button>
+  <div class="pl__media" id="plMedia"></div>
+  <div class="pl__info">
+    <div><span class="pill" id="plCat">Lezione</span><h3 id="plTitle">Titolo</h3><p id="plDesc"></p></div>
+    <dl class="pl__dl"><dt>Durata</dt><dd id="plMin"></dd><dt>Livello</dt><dd id="plLvl"></dd><dt>Ti serve</dt><dd>Un tappetino e un po' di spazio</dd><dt>Accesso</dt><dd>Abbonamento o pacchetto</dd></dl>
+  </div>
+</dialog>
+
+<!-- pagamento (demo) -->
+<dialog class="sheet" id="sheet" aria-label="Acquisto" data-lenis-prevent>
+  <button class="x" type="button" data-close aria-label="Chiudi"><svg viewBox="0 0 16 16"><path d="M2 2l12 12M14 2L2 14"/></svg></button>
+  <form class="form-pay" id="payForm" novalidate>
+    <p class="eyebrow" style="margin-top:8px">Videoteca · acquisto</p>
+    <h3 id="sheetTitle">Abbonamento mensile</h3>
+    <div class="sum"><span>Totale</span><b>— €</b></div>
+    <label class="f"><span>La tua email</span><input type="email" id="payMail" placeholder="nome@email.it" autocomplete="email" required></label>
+    <div class="pay">
+      <label><input type="radio" name="pm" id="pmCard" value="carta" checked><span>Carta</span></label>
+      <label><input type="radio" name="pm" id="pmPaypal" value="paypal"><span>PayPal</span></label>
+    </div>
+    <button class="btn btn--ink" type="submit" id="payBtn">Paga e accedi <span class="ar">→</span></button>
+    <p class="note-demo">Questa è una demo: nessun pagamento vero. Sul sito il pagamento passa da Stripe o PayPal e la fattura parte da sola.</p>
+  </form>
+  <div class="done" id="payDone">
+    <img src="assets/img/seal.webp" alt="" id="doneSeal">
+    <p class="eyebrow">Fatto</p>
+    <h3>Eccoti nella videoteca</h3>
+    <p>Ti ho mandato l'accesso via email, con la fattura. Puoi iniziare subito.</p>
+    <button class="btn btn--ink" type="button" data-area="me">Apri la tua area <span class="ar">→</span></button>
+  </div>
+</dialog>
+
+<!-- area riservata (demo) -->
+<dialog class="area" id="area" aria-label="Area riservata" data-lenis-prevent>
+  <div class="area__top">
+    <b><img src="assets/img/seal-sm.webp" alt="">La mia pratica</b>
+    <div class="area__tabs" role="tablist" aria-label="Vista">
+      <button type="button" role="tab" id="tabMe" aria-selected="true" data-view="me">Chi si iscrive</button>
+      <button type="button" role="tab" id="tabCh" aria-selected="false" data-view="chiara">Chiara</button>
+    </div>
+    <div class="area__me"><span>Esempio</span><i id="areaInit">T</i><button class="btn btn--line" type="button" data-close style="height:40px;padding:0 1.1em">Esci</button></div>
+  </div>
+  <div class="area__in">
+    <section class="area__view" data-view="me" aria-labelledby="tabMe">
+      <p class="eyebrow">Area riservata · esempio</p>
+      <h2>Riprendi da <em>dove eri</em></h2>
+      <div class="area__grid">
+        <div class="box"><h4>Continua a guardare</h4><div class="cont" id="areaCont"></div></div>
+        <div style="display:grid;gap:20px;align-content:start">
+          <div class="box sub"><h4>La tua formula</h4><b id="areaPlan">Abbonamento mensile</b><span>Attiva</span></div>
+          <div class="box"><h4>Fatture</h4><ul class="inv"><li><span id="invDate">Oggi</span><button type="button" class="inv__b" id="invBtn">PDF</button></li></ul></div>
+        </div>
+      </div>
+      <p class="area__demo">Così vedono l'area le persone iscritte: lezioni, formula attiva e fatture in un posto solo.</p>
+    </section>
+    <section class="area__view" data-view="chiara" aria-labelledby="tabCh" hidden>
+      <p class="eyebrow">La videoteca la gestisci tu · esempio</p>
+      <h2>Ciao Chiara, <em>carica una lezione</em></h2>
+      <div class="adm">
+        <div class="box">
+          <h4>Nuova lezione</h4>
+          <button class="drop-z" id="dropZ" type="button"><svg viewBox="0 0 24 24"><path d="M12 16V4M7 9l5-5 5 5"/><path d="M4 15v4a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 20 19v-4"/></svg><b>Trascina qui il video</b><p>Oppure tocca per sceglierlo dal telefono o dal computer. Nella demo il caricamento è simulato.</p></button>
+          <div class="up" id="upForm">
+            <div class="up__row"><span id="upName">registrazione-zoom.mp4</span><span id="upPct">0%</span></div>
+            <div class="up__bar"><i id="upBar"></i></div>
+            <label class="lb" for="upTitle">Titolo</label>
+            <input type="text" id="upTitle" value="Aprire il petto, seconda parte">
+            <span class="lb" id="upWhereL">Dove la metti?</span>
+            <div class="seg" role="radiogroup" aria-labelledby="upWhereL">
+              <label><input type="radio" name="where" id="whAbb" value="Abbonamento"><span>Abbonamento</span></label>
+              <label><input type="radio" name="where" id="whPac" value="Pacchetto"><span>Pacchetto</span></label>
+              <label><input type="radio" name="where" id="whBoth" value="Abbonamento e pacchetto" checked><span>Entrambi</span></label>
+            </div>
+            <button class="btn btn--ink" type="button" id="upPublish" disabled>Pubblica <span class="ar">→</span></button>
+          </div>
+        </div>
+        <div class="box">
+          <h4>Le tue lezioni</h4>
+          <ul class="mine" id="mine"></ul>
+        </div>
+        <div class="box">
+          <h4>Questo mese · numeri di esempio</h4>
+          <div class="kpis">
+            <div class="kpi"><b>18</b><span>abbonamenti attivi</span></div>
+            <div class="kpi"><b>7</b><span>pacchetti venduti</span></div>
+            <div class="kpi"><b>25</b><span>fatture partite da sole</span></div>
+          </div>
+        </div>
+        <div class="box">
+          <h4>Ultime vendite · esempio</h4>
+          <ul class="sales">
+            <li><span>Abbonamento mensile</span><em>Fattura inviata</em></li>
+            <li><span>Pacchetto lezioni</span><em>Fattura inviata</em></li>
+            <li><span>Abbonamento mensile</span><em>Fattura inviata</em></li>
+          </ul>
+        </div>
+      </div>
+      <p class="area__demo">Quando carichi un video scegli tu se va nell'abbonamento, nel pacchetto o in entrambi. Chi compra paga online, entra subito e riceve la fattura senza che tu debba fare niente.</p>
+    </section>
+  </div>
+</dialog>
+
+<div class="toast" id="toast" role="status"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/SplitText.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
